@@ -31,7 +31,7 @@ export const { updateTaskState } = TasksSlice.actions;
 
 const store = configureStore({
   reducer: {
-    taskbox: TaskSlice.reducer,
+    taskbox: TasksSlice.reducer,
   },
 });
 
